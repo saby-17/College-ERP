@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Sign in | Government College for Women, Karnal</title>
+    <link rel="icon" type="image/png" href="assets/gcw-karnal-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="branding.css" />
+  </head>
+  <body>
+    <main class="login-shell">
+      <section class="brand-panel" aria-label="Government College for Women, Karnal Academic Office">
+        <div class="brand"><span class="brand-mark brand-logo"><img src="assets/gcw-karnal-logo.png" alt="Government College for Women, Karnal emblem" /></span><span><strong>Government College for Women</strong><small>Karnal · Academic Office</small></span></div>
+        <div class="brand-copy">
+          <p class="eyebrow">COLLEGE ERP</p>
+          <h1>Academic administration, in one secure workspace.</h1>
+          <p>Manage student records, attendance, assessments, documents and communications after signing in.</p>
+        </div>
+        <div class="security-note"><span>✓</span><p><strong>Local protected session</strong><small>Your session expires after eight hours or when you sign out.</small></p></div>
+      </section>
+      <section class="sign-in-panel">
+        <div class="sign-in-card">
+          <p class="eyebrow">WELCOME BACK</p>
+          <h2>Sign in to your account</h2>
+          <p class="intro">Use your Academic Office account to continue.</p>
+          <form id="loginForm">
+            <label>Username<input id="username" name="username" autocomplete="username" required autofocus placeholder="Enter your username" /></label>
+            <label>Password<div class="password-field"><input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Enter your password" /><button type="button" id="togglePassword" aria-label="Show password">Show</button></div></label>
+            <p class="error-message" id="loginError" role="alert" hidden></p>
+            <button class="sign-in-button" id="loginButton">Sign in <span>→</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>

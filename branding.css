@@ -1,0 +1,57 @@
+/* Government College for Women, Karnal visual identity. */
+.brand .brand-mark.brand-logo {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .25);
+  overflow: hidden;
+  padding: 2px;
+}
+
+.brand-logo img {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.sidebar .brand {
+  gap: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.sidebar .brand .brand-mark.brand-logo {
+  flex: 0 0 39px;
+  height: 39px;
+  width: 39px;
+}
+
+.sidebar .brand strong {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.sidebar .brand small {
+  color: #afcae3;
+  display: block;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.login-shell .brand .brand-mark.brand-logo {
+  flex: 0 0 48px;
+  height: 48px;
+  width: 48px;
+}
+
+.login-shell .brand strong {
+  font-size: 15px;
+}
+
+@media (max-width: 780px) {
+  .login-shell .brand .brand-mark.brand-logo {
+    flex-basis: 42px;
+    height: 42px;
+    width: 42px;
+  }
+}

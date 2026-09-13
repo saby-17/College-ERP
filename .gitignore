@@ -1,0 +1,19 @@
+# Python runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and runtime data
+.env
+.env.*
+*.log
+tmp/
+admin_profile.json
+admin_profile.tmp
+
+# Imported student data must remain private
+*.csv
+*.xlsx
+*.xls
+*.pdf
